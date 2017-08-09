@@ -1,0 +1,102 @@
+.toplevel_page_stackcommerce_wp_page .wp-menu-image {
+  background-size: 20px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/stackcommerce.svg');
+}
+
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .form-table:last-child tr:nth-child(1),
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .form-table:last-child tr:nth-child(2),
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .form-table:last-child tr:nth-child(3),
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .form-table:last-child tr:nth-child(4),
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .form-table:last-child tr:nth-child(5),
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-section .form-table:last-child tr:nth-child(1),
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-section .form-table:last-child tr:nth-child(2),
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-section .form-table:last-child tr:nth-child(3),
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-section .form-table:last-child tr:nth-child(4),
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-section .form-table:last-child tr:nth-child(5),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='false'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(1),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='false'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(2),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='false'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(3),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='false'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(4),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='false'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(5) {
+  display: none;
+}
+
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='true'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(1),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='true'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(2),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='true'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(3),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='true'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(4),
+.stackcommerce-wp-form[data-stackcommerce-wp-content-integration='true'] .stackcommerce-wp-section .form-table:last-child tr:nth-child(5) {
+  display: table-row !important;
+}
+
+.stackcommerce-wp-status,
+.stackcommerce-wp-status-icon-connecting,
+.stackcommerce-wp-status-icon-connected,
+.stackcommerce-wp-status-icon-disconnected {
+  float: left;
+	display: inline-block;
+}
+
+.stackcommerce-wp-status {
+  position: relative;
+  top: -1px;
+  margin: 0 8px 1px;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.stackcommerce-wp-status-icon-connecting,
+.stackcommerce-wp-status-icon-connected,
+.stackcommerce-wp-status-icon-disconnected {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.stackcommerce-wp-status-icon-connecting {
+  background-image: url('../images/connecting.svg');
+}
+
+.stackcommerce-wp-status-icon-connected {
+	background-image: url('../images/connected.svg');
+}
+
+.stackcommerce-wp-status-icon-disconnected {
+	background-image: url('../images/disconnected.svg');
+}
+
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .stackcommerce-wp-status-connected,
+.stackcommerce-wp-form[data-stackcommerce-wp-status='disconnected'] .stackcommerce-wp-status-connecting,
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-status-connected,
+.stackcommerce-wp-form[data-stackcommerce-wp-status=''] .stackcommerce-wp-status-connecting {
+  display: none;
+}
+
+.stackcommerce-wp-form[data-stackcommerce-wp-status='connected'] .stackcommerce-wp-status-disconnected,
+.stackcommerce-wp-form[data-stackcommerce-wp-status='connected'] .stackcommerce-wp-status-connecting {
+  display: none;
+}
+
+.stackcommerce-wp-form[data-stackcommerce-wp-status='connecting'] .stackcommerce-wp-status-disconnected,
+.stackcommerce-wp-form[data-stackcommerce-wp-status='connecting'] .stackcommerce-wp-status-connected {
+  display: none;
+}
+
+.stackcommerce-wp-form fieldset label + label {
+  margin-left: 20px !important;
+}
+
+.stackcommerce-wp-form-select2 {
+  width: 250px;
+}
+
+.select2-dropdown {
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, .15);
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #aaa;
+}
